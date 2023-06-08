@@ -157,7 +157,7 @@ body {
   right: 40px;
   border: 7px solid #1D1AA9;
   overflow: hidden;
-  justify-content: center;
+  justify-content: center; 
   transform: translateX(350px) translateY(300px);
 }
 
@@ -232,7 +232,7 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100vh; 
 }
 
 .imgContainer {
@@ -264,7 +264,7 @@ body {
 .textContainer {
   display: flex;
   justify-content: center; 
-  height: 100vh; 
+  height: 100vh;
   line-height: 2;
 }
 
@@ -280,7 +280,7 @@ body {
   margin: 10px;
   width: 120px;
   height: 120px;
-  transform: translateY(40px) translateX(400px);
+  transform: translateY(520px) translateX(400px);
 
 }
 
@@ -341,8 +341,8 @@ body {
 .socialText {
   position: relative;
   text-align: center;
-  margin-top: 10px; /* 調整文字和圓圈之間的間距 */
-  color: #1D1AA9; /* 設定文字顏色 */
-  font-size: 14px; /* 設定文字大小 */
+  margin-top: 10px; 
+  color: #1D1AA9; 
+  font-size: 14px; 
   transform: translateY(130px);
 }
