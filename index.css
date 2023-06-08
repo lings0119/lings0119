@@ -8,9 +8,7 @@ body {
   color: yellow;
   transition: color 0.7s ease;
   margin-bottom: 10px;
-  /* 距離文字的底邊距離 */
   padding-bottom: 20px;
-  /* 可選，用於增加分隔線下方的間距 */
   border-bottom: 1px solid #1D1AA9;
 }
 
@@ -71,10 +69,7 @@ body {
 
 .smallImage {
   width: 50px;
-  /* 设置小图像的宽度 */
   height: auto;
-  /* 根据宽度自动调整高度，保持纵横比 */
-  /* 其他样式属性和布局 */
 }
 
 .description {
@@ -162,7 +157,7 @@ body {
   right: 40px;
   border: 7px solid #1D1AA9;
   overflow: hidden;
-  justify-content: center; /* 水平居中 */
+  justify-content: center;
   transform: translateX(350px) translateY(300px);
 }
 
@@ -178,7 +173,6 @@ body {
 
 .photoContainer:hover .photo {
   opacity: 0;
-  /* 在.hover效果啟動時將照片透明度設為0，讓新的照片顯示出來 */
 }
 
 .photoContainer:hover::before {
@@ -189,7 +183,6 @@ body {
   width: 100%;
   height: 100%;
   background-image: url("aboutmehover.jpg");
-  /* 更換.hover效果啟動時出現的照片 */
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
@@ -198,7 +191,6 @@ body {
 
 .photoContainer:hover::before {
   opacity: 1;
-  /* 在.hover效果啟動時將照片透明度設為1，顯示新的照片 */
 }
 
 
@@ -239,8 +231,8 @@ body {
 
 .wrapper {
   display: flex;
-  justify-content: center; /* 水平居中 */
-  height: 100vh; /* 设置容器的高度为视窗的高度 */
+  justify-content: center;
+  height: 100vh;
 }
 
 .imgContainer {
@@ -248,12 +240,12 @@ body {
   width: 800px;
   position: relative;
   overflow: hidden;
-  background-image: url("092106651.jpg"); /* 默认背景图像 */
+  background-image: url("092106651.jpg");
   transform: translateY(1050px);
 }
 
 .imgContainer:hover {
-  background-image: url("092120665hover.jpg"); /* 悬停时显示的背景图像 */
+  background-image: url("092120665hover.jpg");
 }
 
 .imgContainer .hoverImage {
@@ -271,8 +263,8 @@ body {
 
 .textContainer {
   display: flex;
-  justify-content: center; /* 水平居中 */
-  height: 100vh; /* 设置容器的高度为视窗的高度 */
+  justify-content: center; 
+  height: 100vh; 
   line-height: 2;
 }
 
@@ -288,7 +280,7 @@ body {
   margin: 10px;
   width: 120px;
   height: 120px;
-  transform: translateY(450px) translateX(400px);
+  transform: translateY(40px) translateX(400px);
 
 }
 
